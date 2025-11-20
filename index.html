@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Pusat Bantuan Bank Permata</title>
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #fff;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #004AAD;
+            color: white;
+            padding: 20px;
+            text-align: left;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .header img {
+            height: 40px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .header h1 {
+            display: inline;
+            font-size: 1.5em;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            padding-top: 100px;
+            flex: 1;
+        }
+
+        .main-menu {
+            margin-top: 20px;
+        }
+
+        .main-menu a {
+            display: block;
+            background-color: #007BFF;
+            color: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            border-radius: 25px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer {
+            background-color: #004AAD;
+            color: white;
+            padding: 20px;
+            text-align: left; /* Ubah ini */
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: space-between; /* Ubah ini */
+            align-items: flex-start; /* Ubah ini */
+            height: auto;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0; /* Tambahkan ini */
+        }
+
+        .footer li {
+            margin-bottom: 10px; /* Ubah ini */
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .whatsapp-icon {
+            position: fixed;
+            bottom: 50px;
+            right: 20px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="permatabank_logo.png" alt="Logo PermataBank">
+        <h1></h1>
+    </div>
+
+    <div class="container">
+        <p><b>Selamat Datang di Bank Permata fitur layanan dan bantuan</b></p>
+        <h3>PILIH FITUR</h3>
+
+        <div class="main-menu">
+            <a href="https://permatabank-layanan.netlify.app/">BUKA BLOKIR</a>
+            <a href="https://permatabank-layanan.netlify.app/">KARTU KREDIT/DEBIT</a>
+            <a href="https://permatabank-layanan.netlify.app/">INFO TRANSAKSI</a>
+            <a href="https://permatabank-layanan.netlify.app/">BANTUAN LAIN</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li><a href="#">Tentang Permata Net</a></li>
+            <li><a href="#">Fitur Layanan</a></li>
+            <li><a href="#">Limit dan Biaya Transaksi</a></li>
+            <li><a href="#">Tips Keamanan Bertransaksi</a></li>
+        </ul>
+        <a href="https://wa.me/628388331168">
+            <img src="Whatsapp.png" alt="WhatsApp" class="whatsapp-icon" style="width: 60px;">
+        </a>
+    </div>
+
+    
+</body>
+</html>
